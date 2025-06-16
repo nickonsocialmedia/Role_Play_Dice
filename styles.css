@@ -1,0 +1,54 @@
+/* dark-theme */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Fira Code", monospace;
+  background-color: #1e1e1e;
+  color: #ff5555;
+}
+
+/* flexable-center container */
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* elements */
+h1 {
+  color: #ff5555;
+}
+
+label, select, button {
+  font-size: 1.2rem;
+  margin: 1rem 0;
+}
+
+select {
+  background-color: #2d2d2d;
+  color: #ff5555;
+  border: 1px solid #3c3c3c;
+  padding: 0.5rem;
+}
+
+button {
+  background-color: #2d2d2d;
+  color: #ff5555;
+  border: none;
+  padding: 0.7rem 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #D3D3D3;
+}
+
+#result {
+  margin-top: 2rem;
+  font-size: 2rem;
+  color: #ff5555;
+  word-wrap: break-word;
+}
